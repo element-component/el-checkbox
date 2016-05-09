@@ -91,6 +91,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
 	var _defineProperty2 = __webpack_require__(5);
 
 	var _defineProperty3 = _interopRequireDefault(_defineProperty2);
@@ -99,8 +103,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	module.exports = {
-	  name: 'el-checkbox',
+	exports.default = {
+	  name: 'ElCheckbox',
 
 	  elementName: 'ElCheckbox',
 

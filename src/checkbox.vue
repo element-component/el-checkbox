@@ -13,8 +13,8 @@
    * <el-checkbox :model.sync="data" value="John"></el-checkbox>
    * <el-checkbox :model.sync="data" value="Mike" disabled></el-checkbox>
    */
-  module.exports = {
-    name: 'el-checkbox',
+  export default {
+    name: 'ElCheckbox',
 
     elementName: 'ElCheckbox',
 
