@@ -21,7 +21,7 @@ cooking.add('plugin.UglifyJs', new webpack.optimize.UglifyJsPlugin({
   }
 }));
 
-ooking.add('externals', {
+cooking.add('externals', {
   vue: 'vue',
   'vue-clickoutside': 'vue-clickoutside'
 });
