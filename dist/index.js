@@ -69,7 +69,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = "<label block=element-checkbox> <span elem=input> <span elem=inner :class=\"{\n        'is-disabled': isLimit || disabled,\n        'is-checked': checked\n      }\"> </span> <input elem=original :value=value v-model=model type=checkbox :disabled=\"isLimit || disabled\"> </span> <span elem=label v-text=\"label || value\"></span> </label>";
+	module.exports = "<label class=element-checkbox> <span class=element-checkbox__input> <span :class=\"{\n        'is-disabled': isLimit || disabled,\n        'is-checked': checked\n      }\" class=element-checkbox__inner> </span> <input :value=value v-model=model type=checkbox :disabled=\"isLimit || disabled\" class=element-checkbox__original> </span> <span v-text=\"label || value\" class=element-checkbox__label></span> </label>";
 
 /***/ },
 /* 2 */
