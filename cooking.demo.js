@@ -35,13 +35,13 @@ cooking.add('vue.loaders.html', 'vue-html-loader!posthtml-loader');
 
 if (process.env.NODE_ENV === 'production') {
   cooking.add('externals', {
-    vue: 'vue',
-    vue: 'Vue'
+    vue: {
+      root: 'Vue',
+      commonjs: 'vue',
+      commonjs2: 'vue',
+      amd: 'vue'
+    }
   });
 }
-
-cooking.add('resolveLoader.root', [
-  process.env.ELEMENT_TOOLBOX
-]);
 
 module.exports = cooking.resolve();
